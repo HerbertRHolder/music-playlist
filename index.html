@@ -17,6 +17,7 @@
         rel="stylesheet">
     <!-- https://ionic.io/ionicons -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -38,16 +39,26 @@
     </header>
 
     <main id="main w-100 h-100">
-        <section class="container debug-ol">
-           <div></div>
-           <div></div>
 
 
-
-
-
-
-        </section>
+        <div class="music-container-phone" id="music-container-phone">
+                
+            <div class="skips-container dol"  id="prev">
+                <ion-icon  class="play-icon" name="play-skip-back-sharp"></ion-icon>
+            </div>
+            
+            <div class="play-parent dol" id="prnt">
+                
+                <div class="play-container dol" id="play"> 
+                    <ion-icon class="play-icon" id="play-icon" name="play-sharp"></ion-icon>
+                </div>
+            
+            </div>
+          
+            <div class="skips-container skips-container-right dol" id="next">
+                <ion-icon  class="play-icon" name="play-skip-forward-sharp"></ion-icon>
+            </div>
+        </div>
     </main>
 
 
